@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bag_of_seeds_mod:item/bag_of_saplings"
+  }
+}
