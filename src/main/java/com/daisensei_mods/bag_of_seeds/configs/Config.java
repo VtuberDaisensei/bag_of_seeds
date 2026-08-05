@@ -1,5 +1,6 @@
-package com.daisensei_mods.bagofseeds;
+package com.daisensei_mods.bag_of_seeds.configs;
 
+import com.daisensei_mods.bag_of_seeds.BagOfSeedsMod;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.fml.common.Mod;
 
@@ -9,7 +10,7 @@ public class Config
     public static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
     public static final Common COMMON = new Common(BUILDER);
 
-    static final ForgeConfigSpec SPEC = BUILDER.build();
+    public static final ForgeConfigSpec SPEC = BUILDER.build();
 
     public static class Common {
         public final ForgeConfigSpec.IntValue maxSeeds;

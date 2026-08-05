@@ -1,7 +1,6 @@
-package com.daisensei_mods.bagofseeds.items;
+package com.daisensei_mods.bag_of_seeds.items;
 
-import com.daisensei_mods.bagofseeds.Config;
-import net.minecraft.core.Holder;
+import com.daisensei_mods.bag_of_seeds.configs.Config;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
@@ -15,7 +14,6 @@ import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.tags.ITag;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 import java.util.Objects;

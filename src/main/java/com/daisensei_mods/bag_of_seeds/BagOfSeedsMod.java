@@ -1,8 +1,8 @@
-package com.daisensei_mods.bagofseeds;
+package com.daisensei_mods.bag_of_seeds;
 
-import com.daisensei_mods.bagofseeds.items.BagOfSaplings;
-import com.daisensei_mods.bagofseeds.items.BagOfSeeds;
-import com.daisensei_mods.bagofseeds.loots.LootModifiers;
+import com.daisensei_mods.bag_of_seeds.configs.Config;
+import com.daisensei_mods.bag_of_seeds.items.BagOfSaplings;
+import com.daisensei_mods.bag_of_seeds.items.BagOfSeeds;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -38,7 +38,6 @@ public class BagOfSeedsMod
         IEventBus modEventBus = context.getModEventBus();
 
         ITEMS.register(modEventBus);
-        LootModifiers.LOOT_MODIFIER_SERIALIZERS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
