@@ -1,0 +1,17 @@
+{
+  "type": "bag_of_seeds_mod:seed_drop",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "#forge:creatures/monster"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 1.0
+    }
+  ],
+  "item": "bag_of_seeds_mod:bag_of_seeds"
+}

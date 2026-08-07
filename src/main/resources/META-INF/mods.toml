@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[0,)"
+license="MIT LICENSE"
+
+[[mods]]
+modId="bag_of_seeds_mod"
+version="0.2.0"
+displayName="Bag of Seeds"
+authors="Daisensei"
+description='''You can get any seeds'''
+[[dependencies.bag_of_seeds_mod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.bag_of_seeds_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,)"
+    ordering="NONE"
+    side="BOTH"
